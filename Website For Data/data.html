@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AQM</title>
+    <link rel="icon" type="image/png" href="logo.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="logo.png" sizes = "192x192">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Air Quality Monitor System</h1>
+            <p class="subtitle">Real-time Environmental Data</p>
+        </header>
+
+        <div class="dashboard">
+            <div class="metric-card temperature">
+                <div class="card-label">Temperature</div>
+                <div class="card-value" id = "temperature">---</div>
+                <div class="card-unit">°C</div>
+            </div>
+
+            <div class="metric-card humidity">
+                <div class="card-label">Humidity</div>
+                <div class="card-value" id = "humidity">---</div>
+                <div class="card-unit">%</div>
+            </div>
+            <p id="analysis"> --- </p>
+        </div>
+
+        <footer class="footer">
+            <p id="lastUpdated">Last Updated: ---</p>
+        </footer>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>

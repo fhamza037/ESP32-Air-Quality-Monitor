@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AQM-1</title>
+    <link rel="icon" type="image/png" href="logo.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="logo.png" sizes="192x192">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Air Quality Monitor System</h1>
+            <p class="subtitle">Enter a location to view sensor data</p>
+        </header>
+
+        <div class="dashboard">
+            <form class="search-form" action="data.html" method="get">
+                <label for="location" class="sr-only">Location</label>
+                <input type="text" id="location" name="location" placeholder="City, neighborhood, or GPS coordinate" required>
+                <button onclick = "analyzeLocation()" type="button" id = 'redirectBtn' class="btn">View Data</button>
+            </form>
+    </div>
+<script src = "index.js"></script>
+</body>
+</html>
