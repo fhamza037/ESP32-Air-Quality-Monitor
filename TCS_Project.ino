@@ -20,8 +20,8 @@ DHT11 dht11(18);
 #include <WiFi.h>
 #include <WebServer.h>
 
-const char* ssid = "Faaz";
-const char* password = "cool1234";
+const char* ssid = "WIFI";
+const char* password = "PASSWORD";
 
 WebServer server(80);
 
