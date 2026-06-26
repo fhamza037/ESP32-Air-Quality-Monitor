@@ -14,7 +14,7 @@ setInterval(updateData, 1000);
 
 async function updateData() {
     try {
-        const response = await fetch("http://172.20.10.5/data");
+        const response = await fetch("WEB_SERVER");
 
         sensorData = await response.json();
 
